@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+/* Header Section */
+header{
+    width: 100%;
+    height: auto;
+    background: #0557bc;
+    height: 112vh;
+}
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+navbar img{
+    position: relative;
+    right: 280px;
+    height: 5vh;
+    top: 10px;
+    cursor: pointer;
+}
+nav{
+    height: 10vh;
+    width: auto;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 15px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: #0557bc;
+    transition: 0.5s;
+}
+.row1{
+    padding-top: 20vh;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col1 h1{
+    color: white;
+    font-size: 55px;
+    position: relative;
+    bottom: 22vh;
+    right: 7%;
+}
+.col1 p{
+    color: white;
+    position: relative;
+    bottom: 20vh;
+    right: 7%;
+}
+.col2 img{
+    height: 90vh;
+    position: relative;
+    left: 22%;
+    top: 4vh;
+    border-radius: 10px;
+}
+.button{
+    position: relative;
+    bottom: 14vh;
+    right: 7%;
+    background: white;
+    color: #0557bc;
+    padding: 20px 40px;
+}
+/* about us */
+.row2{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.col3 img{
+    height: 75vh;
+    position: relative;
+    right: 15%;
+    top: 20vh;
+    border-radius: 10px;
+}
+.col4{
+    position: relative;
+    top: 20vh;
+    left: 5%;
+}
+.col4 p{
+    font-size: 20px;
+    
+}
+.para1{
+    color: #1969ca;
+}
+.col4 h2{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.para2{
+    color: #7d726e;
+    margin-top: 20px;
+}
+.read{
+    padding: 15px 30px;
+    background: #0557bc;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.read:hover{
+    background: #6EC1E4;
+    color: white;
+    transition: 1s;
+}
+
+/* Our Services */
+.Services{
+    margin-top: 30vh;
+    background: #f1f3f4;
+    width: 100%;
+}
+.Services p{
+    text-align: center;
+    color: #055dbf;
+    font-size: 20px;
+    padding-top: 12vh;
+}
+.Services h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.images{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 10vh;
+}
+.heading1{
+    padding: 20px;
+    background: white;
+    margin: 10px;
+}
+.heading1 h2{
+    font-size: 29px;
+    color: #0b1341;
+}
+.heading1 p{
+    font-size: 19px;
+    padding-top: 10px;
+    color: black;
+}
+.heading2 h2{
+    font-size: 29px;
+    color: #0b1341;
+}
+.heading2 p{
+    font-size: 19px;
+    padding-top: 10px;
+    color: black;
+}
+.heading2{
+    padding: 20px;
+    background: white;
+    margin: 10px;
+}
+.heading3 h2{
+    font-size: 29px;
+    color: #0b1341;
+}
+.heading3 p{
+    padding-top: 10px;
+    font-size: 19px;
+    color: black;
+}
+.heading3{
+    padding: 20px;
+    background: white;
+    margin: 10px;
+}
+.All_Services{
+    padding: 17px 44px;
+    position: relative;
+    left: 45%;
+    background: #0557bc;
+    margin-top: 8vh;
+    margin-bottom: 40vh;
+}
+.All_Services:hover{
+    background: #055dbf;
+    color: white;
+    transition: 2s;
+}
+/* Cards */
+.cards{
+    width: 100%;
+    height: auto;
+}
+.card1{
+    display: flex;
+    margin-left: 10%;
+    position: relative;
+    bottom: 31vh;
+}
+.content1{
+    background: #0557bc;
+    height: 63vh;
+    box-sizing: border-box;
+    width: 50%;
+}
+.content1 h2{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 7vh;
+}
+.content1 p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.slot{
+    margin-left: 140px;
+    background: white;
+    color:#0557bc;
+    margin-top: 25px;
+    margin-left: 240px;
+    padding: 17px 44px;
+}
+.image1 img{
+    height: 63vh;
+}
+.choose{
+    position: relative;
+    bottom: 17vh;
+}
+.choose p{
+    text-align: center;
+    color: #0557bc;
+    font-size: 20px;
+}
+.choose h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.card2{
+    margin-left: 10%;
+    display: flex;
+    margin-top: 10vh;
+}
+.card2 img{
+    height: 63vh;
+}
+.content2{
+    padding-left: 2%;
+    box-sizing: border-box;
+    height: 63vh;
+    width: 50%;
+    background-color: #f2f6fb;
+}
+.content2 h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.content2 p{
+    font-size: 20px;
+    color: #0b1341;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 5%;
+}
+.check p{
+    margin-left: 9%;
+}
+.check img{
+    height: 3vh;
+    position: relative;
+    top: 5vh;
+    /* background: #0557bc; */
+    left: 30px;
+}
+.appointment{
+    margin-left: 5%;
+    margin-top: 4vh;
+    background: #0557bc;
+    color: white;
+}
+.testimonial{
+    margin-top: 20vh;
+    width: 100%;
+    height: 70vh;
+    background: #f1f3f4;
+    padding-top: 5vh;
+}
+.testimonial p{
+    text-align: center;
+    color: #0557bc;
+    font-size: 20px;
+}
+.testimonial h2{
+    text-align: center;
+    font-size: 35px;
+    color: #0b1341;
+    margin-top: 20px;
+}
+.names{
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name1{
+    box-sizing: border-box;
+    height: 5vh;
+    width: 20%;
+    background: white;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 160px;
+}
+.name1 p{
+    color: #0b1341;
+    text-align: left;
+    font-size: 18px;
+}
+.name2{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.name1 img{
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+.name3{
+    box-sizing: border-box;
+    height: 5vh;
+    width: 20%;
+    background: white;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 160px;
+}
+.name3 p{
+    color: #0b1341;
+    text-align: left;
+    font-size: 18px;
+}
+.name3 img{
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+.name4{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.name5{
+    box-sizing: border-box;
+    height: 5vh;
+    width: 20%;
+    background: white;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 160px;
+}
+.name5 p{
+    color: #0b1341;
+    text-align: left;
+    font-size: 18px;
+}
+.name5 img{
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+.name6{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.calls{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #0557bc;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+.call{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 15%;
+}
+.call img{
+    height: 40px;
+}
+.call p{
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+.address{
+    display: flex;
+}
+/* .virtual{
+    display: flex;
+} */
+.address{
+    position: relative;
+    right: 28%;
+    width: 30%;
+}
+.address img{
+    height: 40px;
+}
+.address p{
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+}
+.virtual{
+    position: relative;
+    right: 20%;
+    width: 40%;
+}
+.virtual p{
+    color: white;
+    font-size: 20px;
+}
+
+.but{
+   position: relative;
+   right: 12%;
+   
+}
+.but button{
+    padding: 15px 60px;
+    background: white;
+    color: #0557bc;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}

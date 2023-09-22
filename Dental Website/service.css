@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+/* Header Section */
+header{
+    width: 100%;
+    height: auto;
+    background: #0557bc;
+    height: 40vh;
+}
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+navbar img{
+    position: relative;
+    right: 280px;
+    height: 5vh;
+    top: 10px;
+    cursor: pointer;
+}
+nav{
+    height: 10vh;
+    width: auto;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 15px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: #0557bc;
+    transition: 0.5s;
+}
+header h1{
+    font-size: 50px;
+    margin-top: 70px;
+    padding-bottom: 90px;
+    color: white;
+    text-align: center;
+}
+
+.Needs{
+    width: 100%;
+    height: auto;
+    padding-top: 10vh;
+    background: #f1f3f4;
+}
+.Needs h2{
+    color: #0b1341;
+    text-align: center;
+    font-size: 45px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.list1{
+    box-sizing: border-box;
+    height: 65vh;
+    width: auto;
+    position: relative;
+    right: 4%;
+    background: white;
+    padding-top: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.list1 img{
+    height: 35vh;
+}
+.list1 h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.list1 p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.list1 button img{
+    height: 3vh;
+    margin-left: 5px;
+}
+.list1 button{
+    color: #0557bc;
+    font-size: 15px;
+}
+.list1 button{
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list2{
+    box-sizing: border-box;
+    height: 40vh;
+    width: auto;
+    position: relative;
+    left: 1%;
+    height: 65vh;
+    width: auto;
+    padding-top: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+}
+.list2 img{
+    height: 35vh;
+}
+.list2 h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.list2 p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.list2 button img{
+    height: 3vh;
+    margin-left: 5px;
+}
+.list2 button{
+    color: #0557bc;
+    font-size: 15px;
+}
+.list2 button{
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list3{
+    box-sizing: border-box;
+    height: 65vh;
+    width: auto;
+    position: relative;
+    left: 5%;
+    padding-top: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+}
+.list3 img{
+    height: 35vh;
+}
+.list3 h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.list3 p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.list3 button img{
+    height: 3vh;
+    margin-left: 5px;
+}
+.list3 button{
+    color: #0557bc;
+    font-size: 15px;
+}
+.list3 button{
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.List{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40vh;
+    height: 40vh;
+}
+.list4{
+    box-sizing: border-box;
+    height: 65vh;
+    width: auto;
+    position: relative;
+    right: 4%;
+    padding-top: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+}
+.list4 img{
+    height: 35vh;
+}
+.list4 h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.list4 p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.list4 button img{
+    height: 3vh;
+    margin-left: 5px;
+}
+.list4 button{
+    color: #0557bc;
+    font-size: 15px;
+}
+.list4 button{
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list5{
+    box-sizing: border-box;
+    height: 65vh;
+    width: auto;
+    position: relative;
+    left: 22px;
+    padding-top: 5vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+}
+.list5 img{
+    height: 35vh;
+}
+.list5 h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.list5 p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.list5 button img{
+    height: 3vh;
+    margin-left: 5px;
+}
+.list5 button{
+    color: #0557bc;
+    font-size: 15px;
+}
+.list5 button{
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list6{
+    box-sizing: border-box;
+    height: 65vh;
+    width: auto;
+    position: relative;
+    left: 82px;
+    padding-left: 2%;
+    padding-top: 5vh;
+    padding-right: 2%;
+    background: white;
+}
+.list6 img{
+    height: 35vh;
+}
+.list6 h3{
+    font-size: 26px;
+    font-weight: lighter;
+}
+.list6 p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+.list6 button img{
+    height: 3vh;
+    margin-left: 5px;
+}
+.list6 button{
+    color: #0557bc;
+    font-size: 15px;
+}
+.list6 button{
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    padding-top: 50vh;
+    background: #f1f3f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part1{
+    flex-basis: 50%;
+    background: #0557bc;
+    box-sizing: border-box;
+    width: 50%;
+    height: 64vh;
+    padding-top: 5px;
+}
+.part1 h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20vh;
+}
+.part1 p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.part1 button{
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.part2{
+    width: 50%;
+}
+.part2 img{
+    height: 64vh;
+    width: 100%;
+    margin-top: 3px;
+}
+.button2{
+    background: white;
+    color: #0557bc;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
